@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body onresize="check_navbar()">
+
+<div class="topnav">
+    <div class="menu">
+        <a href="plenery.html">Plenery</a>
+        <a href="zwierzeta.html">Zwierzęta</a>
+        <a href="przedmioty.html">Przedmioty</a>
+        <a class="active" href="index.html">Główna</a>
+    </div>
+</div>
+<div id="mobile">
+    <div class="topnav topnav2">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div id="myLinks" class="links">
+            <a class="tekst active" href="index.html">Główna</a>
+            <a class="tekst" href="plenery.html">Przedmioty</a>
+            <a class="tekst" href="zwierzeta.html">Zwierzęta</a>
+            <a class="tekst" href="przedmioty.html">Zwierzęta</a>
+    </div>
+</div>
+
+<div style="padding-left:16px">
+    <div id="block1">
+        <img src="img/happy.svg" id="happy">
+        <h2 class="happytext">Witaj po radosnej stronie obrazków!</h2>
+    </div>
+</div>
+<div class="ekran_glwony1">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="box" id="galery">
+        <div class="galeria">
+            <img src="img2/przedmioty/1.jpg" class="klik">
+            <img src="img2/przedmioty/2.jpg" class="klik">
+            <img src="img2/przedmioty/3.jpg" class="klik">
+            <img src="img2/przedmioty/4.jpg" class="klik">
+            <img src="img2/przedmioty/5.jpg" class="klik">
+            <img src="img2/przedmioty/6.jpg" class="klik">
+            <img src="img2/przedmioty/7.jpg" class="klik">
+            <img src="img2/przedmioty/8.jpg" class="klik">
+            <img src="img2/przedmioty/9.jpg" class="klik">
+            <img src="img2/przedmioty/10.jpg" class="klik">
+            <img src="img2/przedmioty/11.jpg" class="klik">
+            <img src="img2/przedmioty/12.jpg" class="klik">
+            <img src="img2/przedmioty/13.jpg" class="klik">
+            <img src="img2/przedmioty/14.jpg" class="klik">
+            <img src="img2/przedmioty/15.jpg" class="klik">
+        </div>
+        <div class="galeria">
+            <img src="img2/zwierzeta/1.jpg" class="klik">
+            <img src="img2/zwierzeta/2.jpg" class="klik">
+            <img src="img2/zwierzeta/3.jpg" class="klik">
+            <img src="img2/zwierzeta/4.jpg" class="klik">
+            <img src="img2/zwierzeta/5.jpg" class="klik">
+            <img src="img2/zwierzeta/6.jpg" class="klik">
+            <img src="img2/zwierzeta/7.jpg" class="klik">
+            <img src="img2/zwierzeta/8.jpg" class="klik">
+            <img src="img2/zwierzeta/9.jpg" class="klik">
+            <img src="img2/zwierzeta/10.jpg" class="klik">
+            <img src="img2/zwierzeta/11.jpg" class="klik">
+            <img src="img2/zwierzeta/12.jpg" class="klik">
+            <img src="img2/zwierzeta/13.jpg" class="klik">
+            <img src="img2/zwierzeta/14.jpg" class="klik">
+            <img src="img2/zwierzeta/15.jpg" class="klik">
+        </div>
+
+    <div class="galeria">
+        <img src="img2/plener/1.jpg" class="klik">
+        <img src="img2/plener/2.jpg" class="klik">
+        <img src="img2/plener/3.jpg" class="klik">
+        <img src="img2/plener/4.jpg" class="klik">
+        <img src="img2/plener/5.jpeg" class="klik">
+        <img src="img2/plener/6.jpg" class="klik">
+        <img src="img2/plener/7.jpg" class="klik">
+        <img src="img2/plener/8.jpg" class="klik">
+        <img src="img2/plener/9.jpg" class="klik">
+        <img src="img2/plener/10.jpg" class="klik">
+        <img src="img2/plener/11.jpg" class="klik">
+        <img src="img2/plener/12.jpg" class="klik">
+        <img src="img2/plener/13.jpg" class="klik">
+        <img src="img2/plener/14.jpg" class="klik">
+        <img src="img2/plener/15.jpg" class="klik">
+
+    </div>
+    <div id="myModal" class="modal" onclick="zamknij_modal()">
+        <div class="modal-content">
+          <img src="" id="modal-image" class="modal_size">
+        </div>
+      </div>
+    
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
